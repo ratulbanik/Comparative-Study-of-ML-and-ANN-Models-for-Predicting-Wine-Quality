@@ -49,12 +49,12 @@ P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis. "Modeling Wine Prefer
 7. **Start Jupyter Notebook:** `jupyter notebook`
 8. **Open the notebook:** Click on `Wine_Quality_Analysis.ipynb` within the Jupyter interface to open and run the notebook.
 
-## Running in Google Colab
+### Running in Google Colab
 
-You can run this project directly in your browser using Google Colab. Here's how:
+You can run this project directly in your browser using Google Colab:
 
-1. **Open the notebook in Colab:** Click on the "Open in Colab" badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/ratulbanik/Comparative-Study-of-ML-and-ANN-Models-for-Predicting-Wine-Quality/blob/main/notebooks/california_housing_analysis.ipynb)
-2. **Connect to a runtime:** Colab will prompt you to connect to a runtime environment. Select a GPU or TPU runtime if your analysis requires it.
+1. **Open the notebook in Colab:**  Click on the "Open in Colab" badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ratulbanik/Comparative-Study-of-ML-and-ANN-Models-for-Predicting-Wine-Quality/blob/main/Wine_Quality_Prediction.ipynb) 
+2. **Connect to a runtime:** Colab will prompt you to connect to a runtime environment. Select a GPU or TPU runtime if your analysis benefits from it.
 3. **Run the cells:** The notebook is now ready! Execute the cells in order to run the code.
 
 **Note:** You might need to install some dependencies within the Colab notebook if they are not already available in the Colab environment.
