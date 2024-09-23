@@ -1,4 +1,4 @@
-# Uncorking Quality: A Comparative Analysis of Wine Prediction Models
+# Comparative Study of ML and ANN Models for Predicting Wine Quality
 
 ## Project Overview
 
