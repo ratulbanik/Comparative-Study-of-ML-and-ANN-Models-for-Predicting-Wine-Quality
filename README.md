@@ -33,24 +33,31 @@ P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis. "Modeling Wine Prefer
 
 ## Instructions to Run 
 
-1.  **Dependencies:**  
-    * This project requires the following Python libraries:
-       ```
-       pandas
-       numpy
-       seaborn
-       matplotlib
-       termcolor
-       scikit-learn
-       imblearn
-       ```
+### Running Locally
 
-2.  **Running the Notebook:**
-    1. Clone the repository:  `git clone [Your Repository URL - We'll get this in the next step]`
-    2. Navigate to the project folder: `cd wine-quality-analysis` 
-    3. Install dependencies: `pip install -r requirements.txt`
-    4. Open the Jupyter Notebook: `jupyter notebook`
-    5. Run all cells in the notebook to reproduce the analysis.
+1. **Prerequisites:** Ensure you have Python 3.x installed on your system.
+2. **Clone the repository:** 
+   ```bash
+   git clone https://github.com/ratulbanik/Comparative-Study-of-ML-and-ANN-Models-for-Predicting-Wine-Quality.git
+   ```
+3. **Navigate to the project directory:** `cd Comparative-Study-of-ML-and-ANN-Models-for-Predicting-Wine-Quality`
+4. **Create a virtual environment (recommended):** `python3 -m venv .venv`
+5. **Activate the environment:**
+    * Windows: `.venv\Scripts\activate`
+    * macOS/Linux: `source .venv/bin/activate`
+6. **Install dependencies:** `pip install -r requirements.txt`
+7. **Start Jupyter Notebook:** `jupyter notebook`
+8. **Open the notebook:** Click on `Wine_Quality_Analysis.ipynb` within the Jupyter interface to open and run the notebook.
+
+## Running in Google Colab
+
+You can run this project directly in your browser using Google Colab. Here's how:
+
+1. **Open the notebook in Colab:** Click on the "Open in Colab" badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/ratulbanik/Comparative-Study-of-ML-and-ANN-Models-for-Predicting-Wine-Quality/blob/main/notebooks/california_housing_analysis.ipynb)
+2. **Connect to a runtime:** Colab will prompt you to connect to a runtime environment. Select a GPU or TPU runtime if your analysis requires it.
+3. **Run the cells:** The notebook is now ready! Execute the cells in order to run the code.
+
+**Note:** You might need to install some dependencies within the Colab notebook if they are not already available in the Colab environment.
 
 ## Author & Contact 
 
